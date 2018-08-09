@@ -15,11 +15,11 @@ function addSvgButton(buttonName, clickFunction) {
   if (clickFunction)
     button.addEventListener("click", clickFunction, false);
 
-  var topPolygon = getForeground(button);
-  if (topPolygon) {
+  //var topPolygon = getForeground(button);
+  //if (topPolygon) {
 
-    topPolygon.addEventListener("mouseover", svgMouseOver);
-    topPolygon.addEventListener("mouseout", mouseOut);
-    topPolygon.parentButton = button;
-  }
+  //  topPolygon.addEventListener("mouseover", svgMouseOver);
+  //  topPolygon.addEventListener("mouseout", mouseOut);
+  //  topPolygon.parentButton = button;
+  //}
 }
